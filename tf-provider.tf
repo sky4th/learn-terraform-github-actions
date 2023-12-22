@@ -6,7 +6,7 @@ terraform {
       name = "learn-terraform-github-actions"
     }
   }
-}   
+}
 
 provider "azurerm" {
   features {}

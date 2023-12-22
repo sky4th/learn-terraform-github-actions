@@ -1,7 +1,7 @@
 #####################################################################
 # location of resource
 ########################################################################
-variable location {
+variable "location" {
   default = "westeurope"
 }
 #############################################################################
@@ -10,8 +10,9 @@ variable location {
 # for e.g. name for resource group for hub
 # <rgp> <""> <""> <hub> <we> <""><01>. 
 #################################################################################
-variable resource_group_name   {
+variable "resource_group_name" {
   description = "resource group name"
   type        = string
+  default     = "tf-first-res"
 }
 
