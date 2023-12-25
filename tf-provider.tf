@@ -1,10 +1,4 @@
 terraform {
- # cloud {
- #   organization = "sky4th"
- #   workspaces {
- #     name = "learn-terraform-github-actions"
- #   }
- # }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
