@@ -1,10 +1,11 @@
 terraform {
   cloud {
-    organization = "organization-name"
+    organization = "sky4th"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "learn-terraform-github-actions"
     }
+  }
   }
   required_providers {
     azurerm = {
