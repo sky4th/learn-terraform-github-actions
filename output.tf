@@ -1,6 +1,6 @@
 #############################################################################
 # output hub Resource Group
 #################################################################################
-#output "hubrg" {
-#  value = azurerm_resource_group.hubrg
-#}
+output keyvault {
+  value = azurerm_key_vault.example
+}
