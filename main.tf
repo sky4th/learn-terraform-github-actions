@@ -3,7 +3,7 @@
 #################################################################################
 resource "azurerm_key_vault" "example" {
   name                        = "examplekeyvault-sky"
-  location                    = westeurope
+  location                    = "westeurope"
   resource_group_name         = "hub-rg"
   enabled_for_disk_encryption = true
   tenant_id                   = data.azurerm_client_config.current.tenant_id
