@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "organization-name"
+
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
