@@ -6,7 +6,6 @@ terraform {
       name = "learn-terraform-github-actions"
     }
   }
-  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
