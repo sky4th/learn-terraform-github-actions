@@ -1,6 +1,6 @@
 #############################################################################
 # output hub Resource Group
 #################################################################################
-output keyvault {
-  value = azurerm_key_vault.example
+output "keyvault" {
+  value = azurerm_key_vault.example.id
 }
